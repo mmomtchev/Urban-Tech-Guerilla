@@ -10,6 +10,14 @@ A determined fighter who never gave up on liberty, Che has become a symbol of po
 
 Just as his guide inspired people around the world, and as a symbol of political pluralism, I will be writing this new guide, updated for the modern world, for everyone who fights for whatever cause he finds righteous. Because everyone who is willing to sacrifice personal comfort for a cause is worthy of my help.
 
+## Ideology
+
+This guide is meant for political activists and not criminals. In fact, the use of violence is probably the one most important element that has radically changed since Che's original book. Violence is no longer justified in the developed world - and for this we should thank people such as Che. While governments will always find means to oppress the people, in the Internet age, they will rarely do so through violence.
+
+You will find nothing in this guide that is against the law. In cases where the laws vary by jurisdictions, this will be noted.
+
+Another very important statement to make is that liberty always comes with a price. Policing a free society is much more difficult than policing an authoritarian one. If anyone ever uses it to further criminal goals, then this will be an undesirable side effect of liberty.
+
 ## Everyday life
 
 Living the Jason Bourne lifestyle is usually much exciting than in the movies. You will be spending large amounts of time on the lookout for many basic necessities that average people take for granted. A place to spend the night, food, water, electricity - nothing will come to you without some effort.
