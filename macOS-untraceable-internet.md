@@ -206,6 +206,12 @@ You should set up two browsers - one that connects directly to the Internet - th
 
 Another browser should be set up to use the SOCKS5 proxy. Connections from this browser will appear as coming from a random Tor exit node and these will be untraceable. However it will be limited to the Tor-friendly websites.
 
+## Things that may give away your location
+
+Never use the Linux router for anything besides connecting to Tor. Don't even update it - since people with access to the remote server may identify your connection.
+
+Always use the untraceable browser when using online maps. Since the normal browser uses a fixed IP address, this IP address can be used by people with access to the map server to identify the map tiles that your browser has requested.
+
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you remove the SIM card.
