@@ -206,11 +206,26 @@ You should set up two browsers - one that connects directly to the Internet - th
 
 Another browser should be set up to use the SOCKS5 proxy. Connections from this browser will appear as coming from a random Tor exit node and these will be untraceable. However it will be limited to the Tor-friendly websites.
 
+## Randomizing the MAC address
+
+Big retail chains that provide free Wi-Fi to their customers usually do so from a central office - and sometimes this is subcontracted to a third party provider specialized in installing Wi-Fi. You can easily identify it on the captive portal that pops up when you connect for the first time.
+
+Should your MAC address be identified, this will allow to very easily track you from a central location. In order to avoid this - while at the same time avoiding to pass through the captive portal at each new connection, you should add this little script to your network startup:
+
+```bash
+DAILY_MAC=`date +salt-%Y-%m-%d | md5sum | sed -E -e 's/([a-z0-9]{2})/\1:/g' | cut -f 1-6 -d ":"`
+ifconfig wlan0 hw ether ${DAILY_MAC}
+```
+
+Replace `salt` with a string you are the only one to know and `wlan0` with your Wi-Fi device. This will give you a different MAC address each day.
+
 ## Things that may give away your location
 
 Never use the Linux router for anything besides connecting to Tor. Don't even update it - since people with access to the remote server may identify your connection.
 
 Always use the untraceable browser when using online maps. Since the normal browser uses a fixed IP address, this IP address can be used by people with access to the map server to identify the map tiles that your browser has requested.
+
+Generally speaking, you should be avoiding online maps completely unless absolutely necessary - stick with offline maps.
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
