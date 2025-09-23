@@ -28,7 +28,7 @@ I will try to give you as many tips as possible, but you should know that there 
 
 These days a delivery van is the ideal choice for anyone leading a clandestine life. A second-hand delivery van is not that expensive and can easily be accommodated with a bed, a small gas appliance for cooking, solar panels, diesel heating for the winter and a small fridge. A shower and a chemical toilet are somewhat more complicated, but are very nice additions too. These will allow you to live almost completely off the grid while substantially lowering your food costs - compared to someone who has to buy ready-to-eat meals.
 
-Once you have been living in a van yourself, you will learn to immediately spot one when it is parked on your street. However most people will never tell the difference. And a carefully built so-called *stealth* van will certainly pass under the radar even for the police.
+Once you have been living in a van yourself, you will learn to immediately spot one when it is parked on your street - unless it is a purposely built so called *stealth* van. However most people will never tell the difference and the *stealth* van will certainly pass under the radar even for the police. A normally built van will usually have outlets for filling in water, plugging in a charging cable and the a small trap door on the side for the chemical toilet. A stealth van won't have any of these and will have the driver section isolated from the rest with good tinted windows so that any interior lighting is not visible from the outside. Tinted windows for the driver are illegal in most jurisdictions, but tinted windows on the back of a van are usually allowed everywhere.
 
 ##### Parking the van
 
