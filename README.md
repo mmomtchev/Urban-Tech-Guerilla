@@ -44,6 +44,8 @@ In the developed world, it is generally considered that the cheapest healthy goo
 
 During the sunny season, electricity will never be a problem if you install solar panels. These will give you plenty of power to run your computer, charge your phone, power the interior lights, run the water pump and eventually the fridge (for the fridge you have two choices - electricity or gas).
 
+In addition to the main engine battery - which I never use for anything but starting the engine since it is very inefficient when handling small loads over time - I have two large 12V batteries salvaged from large corporate UPSes. These are usually the best choice for cheap batteries that handle well small loads over time.
+
 During the winter season, the situation is rather different - not only you will be getting much less power, but you will also need to power the diesel heater 24/24. The only way to charge the battery will be to get power from the outside. Luckily, thanks to the proliferation of electric vehicles, electricity is now widely available on the street. The most common in the EU Type-2 charging adapter can be used to get 220V which can be converted to 12V by a special charging transformer. You can buy the plug which you will have to wire yourself on Amazon. Charging fees vary widely between different providers, but if you find one that makes you pay per KWh and not per minute of charging, you should be able to charge your batteries for a few cents.
 
 ##### Converting a computer screen to run on 12V
