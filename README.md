@@ -30,9 +30,25 @@ These days a delivery van is the ideal choice for anyone leading a clandestine l
 
 Once you have been living in a van yourself, you will learn to immediately spot one when it is parked on your street. However most people will never tell the difference. And a carefully built so-called *stealth* van will certainly pass under the radar even for the police.
 
+##### Parking the van
+
+Parking the van is an art that takes some time to master. There are many things that are important for a good spot. Some spots will be very good during the weekend, others during the night or during a working day. There are some rare gems that are always good.
+
+When I arrive in a new neighborhood, I usually spend every day at least an hour, maybe even two, walking to scout my surroundings. This also allows me to take breaks from working on my computer. All the best places I have found, I have always found them on foot - because most of the time these are slightly off the main road and not visible when driving.
+
 #### Food
 
 In the developed world, it is generally considered that the cheapest healthy good meal costs about $1 (or 1€) and the minimum amount of money that you need for your daily survival would be about $5 (or 5€). Below this amount, you will have to resort to scavenging. However you should not forget that the only way to go that low is to have an access to a fridge and a cooking stove.
+
+#### Electricity
+
+During the sunny season, electricity will never be a problem if you install solar panels. These will give you plenty of power to run your computer, charge your phone, power the interior lights, run the water pump and eventually the fridge (for the fridge you have two choices - electricity or gas).
+
+During the winter season, the situation is rather different - not only you will be getting much less power, but you will also need to power the diesel heater 24/24. The only way to charge the battery will be to get power from the outside. Luckily, thanks to the proliferation of electric vehicles, electricity is now widely available on the street. The most common in the EU Type-2 charging adapter can be used to get 220V which can be converted to 12V by a special charging transformer. You can buy the plug which you will have to wire yourself on Amazon. Charging fees vary widely between different providers, but if you find one that makes you pay per KWh and not per minute of charging, you should be able to charge your batteries for a few cents.
+
+##### Converting a computer screen to run on 12V
+
+Every computer screen that has an external power brick can very easily be converted to run on 12V without knowing anything (almost anything) about electricity. Just get a multimeter and measure its output. It will always be a direct current with a voltage that usually goes from 14V to 19V. Cut off the plug and connect it to a cheap DC/DC step-up off Amazon - these usually cost about $10 - and then connect it to your battery. You can install a 12V car fuse for peace of mind. Use a screwdriver to set the correct voltage and your screen should immediately work.
 
 #### Keeping your physical location secret and using the Internet
 
