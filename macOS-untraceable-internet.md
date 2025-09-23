@@ -229,7 +229,7 @@ Generally speaking, you should be avoiding online maps completely unless absolut
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
-At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you remove the SIM card.
+At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
 
 ## Uninstalling
 
