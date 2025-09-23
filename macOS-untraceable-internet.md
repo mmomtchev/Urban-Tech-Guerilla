@@ -219,6 +219,15 @@ ifconfig wlan0 hw ether ${DAILY_MAC}
 
 Replace `salt` with a string you are the only one to know and `wlan0` with your Wi-Fi device. This will give you a different MAC address each day.
 
+The first two or three bytes of the MAC address identify the chip manufacturers and some Wi-Fi adapters will refuse to change them. In this case you should vary only the next 4 (or 3) bytes:
+
+```bash
+DAILY_MAC=`date +salt-%Y-%m-%d | md5sum | sed -E -e 's/([a-z0-9]{2})/\1:/g' | cut -f 1-4 -d ":"`
+ifconfig wlan0 hw ether 00:C5:${DAILY_MAC}
+```
+
+`00:C5` is a MAC prefix assigned to Apple. In recent years, MAC address randomization has become more popular, so purely MAC address analysis in large Wi-Fi providers will be very difficult.
+
 ## Things that may give away your location
 
 Never use the Linux router for anything besides connecting to Tor. Don't even update it - since people with access to the remote server may identify your connection.
