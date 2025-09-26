@@ -22,6 +22,8 @@ Another very important statement to make is that liberty always comes with a pri
 
 Living the Jason Bourne lifestyle is usually much exciting than in the movies. You will be spending large amounts of time on the lookout for many basic necessities that average people take for granted. A place to spend the night, food, water, electricity - nothing will come to you without some effort.
 
+In the movies, it is all about high-speed car chases. Car chases in the real life are very rare and high-speed ones are even more so. Do not forget that both the one who follows and the one who are followed do not want to attract any attention. Most real-world car chases end the very moment the followed realizes he is being followed. In the movies, they drive as fast as they can. In the real world one of the best ways to shake a tail is to drive unusually slow.
+
 I will try to give you as many tips as possible, but you should know that there are many tricks that I won't be able to share before the conclusion of my own affair since these risk compromising my own safety.
 
 #### Living in a van
@@ -39,6 +41,10 @@ When I arrive in a new neighborhood, I usually spend every day at least an hour,
 #### Food
 
 In the developed world, it is generally considered that the cheapest healthy good meal costs about $1 (or 1€) and the minimum amount of money that you need for your daily survival would be about $5 (or 5€). Below this amount, you will have to resort to scavenging. However you should not forget that the only way to go that low is to have an access to a fridge and a cooking stove.
+
+##### Scavenging
+
+Scavenging does not have to be about regular thrash bins. A prime location for scavenging are the wholesale food markets where most restaurants and smaller shops do their daily shopping. There are many perishables that are usually thrown at the end of the day - which would be something like 8am to 9am since they usually go shopping just before dawn.
 
 #### Electricity
 

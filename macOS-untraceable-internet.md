@@ -236,6 +236,12 @@ Always use the untraceable browser when using online maps. Since the normal brow
 
 Generally speaking, you should be avoiding online maps completely unless absolutely necessary - stick with offline maps.
 
+### Captive portals
+
+The captive portals can become a weakness if you tend to frequently use the same location.
+
+I will continue to update this section as I gain more experience with the captive portals. However you should know that many of these captive portals install cookies in your browser. I have seen at least one which told me that I had a previous session on a different device when I changed my MAC address. You cannot allow this. The browser configuration must be deleted every day.
+
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
