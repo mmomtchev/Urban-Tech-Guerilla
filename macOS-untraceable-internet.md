@@ -246,6 +246,10 @@ Also very often you will have to fix various broken and misconfigured captive po
 
 However bear in mind that connecting to an AP that is not working for most of its users has both advantages and drawbacks. You get excellent speeds but you definitely draw attention.
 
+## Wireless connectivity
+
+You should know that wireless connectivity is a complex subject. Different radio waves propagate in a different way and range depends on a very large number of factors including the solar activity of the day - and this is definitely not a joke. In particular concrete walls, interference or running heavy machinery can have a huge impact. If your connectivity is bad, try moving around. Having external antennas attached with a cable to your computer helps a lot. For example, one day I got a very strong 5 GHz signal with a Wi-Fi name that clearly indicated a restaurant. I drove around and I could not see it despite the signal being very good. Some moments later I realized that it was coming for a street parallel to the one on which I was driving. Very happy to have found such a great signal I immediately went to its the empty parking behind it since it was closed. I could not get any signal there - the AP was installed facing the customer area and I was behind all the kitchen equipment and a power substation.
+
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
