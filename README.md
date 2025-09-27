@@ -82,6 +82,16 @@ Another excellent choice are the corporate APs for visitors. Most large office b
 
 One thing that you should be wary when using public Wi-Fi APs is to try to vary the locations.  Otherwise you risk to always use the same provider which, if identified, might start tracking you. Refer to the section on *Randomizing the MAC address* in the router guide.
 
+#### Carrying a gun
+
+If you live in a state with lax gun control laws, you might be tempted to carry a gun. Do not. Nothing good will every come out of it. In most real-world situation carrying a gun is a very serious liability and not a advantage.
+
+Do not forget that a political activist is fighting for a tomorrow. One gunfight and there won't be a tomorrow - no matter who is killed or injured in it. It will surely be a huge political statement, but whether it will be the right one, is not that simple.
+
+If you want to carry a gun, you should not only be prepared to kill someone with it - you should also be prepared to get killed yourself and to spend your life in prison.
+
+Depending on your political goals, this might be a good choice. However those few situations which would actually require it are currently considered out for scope of this guide.
+
 ## Addendum
 
 ### Practical Guides
