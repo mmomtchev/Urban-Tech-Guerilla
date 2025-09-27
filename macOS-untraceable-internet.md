@@ -242,6 +242,10 @@ The captive portals can become a weakness if you tend to frequently use the same
 
 I will continue to update this section as I gain more experience with the captive portals. However you should know that many of these captive portals install cookies in your browser. I have seen at least one which told me that I had a previous session on a different device when I changed my MAC address. You cannot allow this. The browser configuration must be deleted every day.
 
+Also very often you will have to fix various broken and misconfigured captive portals. Before I went to full-time Wi-Fi only, I was under the impression that many public Wi-Fis did not really work or had very bad connectivity. I will dedicate a whole section to the connectivity issues, but I have found that about 1 out of 3 public APs does not correctly redirect modern browsers HTTPS requests to its captive portal - meaning that it is a non-working AP for the average user out there. In order to trigger a redirect, I use `curl` with an `http://` URL to see the captive portal IP address. If this does not work, I try using `curl` on the AP itself. Many APs will act as a recursive DNS server but only for the URL of the captive portal.
+
+However bear in mind that connecting to an AP that is not working for most of its users has both advantages and drawbacks. You get excellent speeds but you definitely draw attention.
+
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
