@@ -82,6 +82,16 @@ Another excellent choice are the corporate APs for visitors. Most large office b
 
 One thing that you should be wary when using public Wi-Fi APs is to try to vary the locations.  Otherwise you risk to always use the same provider which, if identified, might start tracking you. Refer to the section on *Randomizing the MAC address* in the router guide.
 
+#### Anonymous electronic payments
+
+Unlike the (almost) universal untraceable Internet access, you should know that there is no such thing as universal untraceable electronic payments - not counting carefully used crypto currencies.
+
+There are very strict international regulations - because of money laundering, fraud and tax evasion. There are very few open holes since there are already many people looking very hard to find them - on both sides of the law.
+
+In the recent years, virtual bank cards have been gaining popularity and many companies promise fully anonymous online payments. Do not be fooled - once a merchant is identified and cooperating, the financial institution will be identified. Once the financial institution is identified, they can provide your balance and transactions. It is as simple as that.
+
+Currently, the only thing that is actually possible is to use a prepaid debit card and to conceal the merchant that you are paying to. Some of these prepaid bank cards can be bought from traditional brick and mortar stores and paid cash. In most countries there is something called the KYC (for *Know Your Customer*) regulations that require banks to not only know the identify of their customer, but to be also reasonably sure that he is not a criminal. However in many countries, these regulations do not apply for payments below a certain threshold - on the order of about 200€ per week. Buying such prepaid debit cards - using fake names and addresses - can allow you to make small electronic payments. You can use a different card for each merchant for extra safety.
+
 #### Carrying a gun
 
 If you live in a state with lax gun control laws, you might be tempted to carry a gun. Do not. Nothing good will every come out of it. In most real-world situation carrying a gun is a very serious liability and not a advantage.
