@@ -90,7 +90,11 @@ There are very strict international regulations - because of money laundering, f
 
 In the recent years, virtual bank cards have been gaining popularity and many companies promise fully anonymous online payments. Do not be fooled - once a merchant is identified and cooperating, the financial institution will be identified. Once the financial institution is identified, they can provide your balance and transactions. It is as simple as that.
 
-Currently, the only thing that is actually possible is to use a prepaid debit card and to conceal the merchant that you are paying to. Some of these prepaid bank cards can be bought from traditional brick and mortar stores and paid cash. In most countries there is something called the KYC (for *Know Your Customer*) regulations that require banks to not only know the identify of their customer, but to be also reasonably sure that he is not a criminal. However in many countries, these regulations do not apply for payments below a certain threshold - on the order of about 200€ per week. Buying such prepaid debit cards - using fake names and addresses - can allow you to make small electronic payments. You can use a different card for each merchant for extra safety.
+Currently, the only thing that is actually possible is to use a prepaid debit card and to conceal the merchant that you are paying to. Prepaid debit cards are the modern version of travelers cheques. Some of these prepaid bank cards can be bought from traditional brick and mortar stores and paid cash. In most countries there is something called the KYC (for *Know Your Customer*) regulations that require banks to not only know the identify of their customer, but to be also reasonably sure that he is not a criminal. However in many countries, these regulations do not apply for payments below a certain threshold - usually 200€ per month or 100€ per week is a very safe bet.
+
+Buying such prepaid debit cards - using fake names and addresses - can allow you to make small electronic payments. You can use a different card for each merchant for extra safety. In some states, some providers will require an ID to sell you such card. In other states, other providers will not.
+
+As these payments will carry an extra cost for you, you should always use them as a very last resort.
 
 #### Carrying a gun
 
