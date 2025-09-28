@@ -149,6 +149,8 @@ verb 3
 
 At this point you should be able to connect with Tunnelblick via Tor. You should even be able to access the Internet if you manually set up the routing, but the problem is that the macOS GUI will be confused and it will think that the computer is offline.
 
+With this setup Tunnelblick will warn you that if cannot ensure that your public IP address changed after connecting to the VPN - this is normal as your Mac host did not have a public IP address at all.
+
 ## Creating a new macOS *Network Service*
 
 VMware Fusion creates a bridge for the host-only network, but it is not identified in the macOS GUI as a valid network adapter.
@@ -282,6 +284,8 @@ systemctl disable dnscrypt-proxy-resolvconf.service
 ```
 
 Now `systemd` does know about this resolver. Local Linux queries get routed through `systemd-resolved` and go through the DHCP-provided DNS. Remote queries from the Mac host go through `dnscrypt-proxy` and Tor.
+
+With this setup Tunnelblick will warn you that your DNS does not pass through the VPN tunnel - this is normal, as your DNS uses the Tor network directly.
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
