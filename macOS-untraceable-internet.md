@@ -180,7 +180,7 @@ sudo networksetup -setmanual Tor 192.168.108.1 255.255.255.0 192.168.108.128
 
 Now if you go to `System Settings...` / `Network` you will notice a new network adapter called `Tor` along any eventual Wi-Fi and Ethernet adapters. This will be your untraceable connection. It will be immediately green and active. You can enable and disable it from the GUI. Do not worry, you won't leak anything at this point - the Linux router is not set up for masquerading.
 
-If you want to access your OpenVPN server by DNS name, you will also have to install a recursive DNS server on the Linux guest and use:
+If you want to access your OpenVPN server by DNS name, you will also have to install a recursive DNS server (als check the section below) on the Linux guest and use:
 
 ```shell
 sudo networksetup -setdnsservers Tor 192.168.108.128
@@ -249,6 +249,39 @@ However bear in mind that connecting to an AP that is not working for most of it
 ## Wireless connectivity
 
 You should know that wireless connectivity is a complex subject. Different radio waves propagate in a different way and range depends on a very large number of factors including the solar activity of the day - and this is definitely not a joke. In particular concrete walls, interference or running heavy machinery can have a huge impact. If your connectivity is bad, try moving around. Having external antennas attached with a cable to your computer helps a lot. For example, one day I got a very strong 5 GHz signal with a Wi-Fi name that clearly indicated a restaurant. I drove around and I could not see it despite the signal being very good. Some moments later I realized that it was coming for a street parallel to the one on which I was driving. Very happy to have found such a great signal I immediately went to its the empty parking behind it since it was closed. I could not get any signal there - the AP was installed facing the customer area and I was behind all the kitchen equipment and a power substation.
+
+## DNS
+
+Do this section when your OpenVPN server is being monitored. It will prevent people spying on it to snoop your DNS queries.
+
+In this setup, the untraceable browser will use Tor for DNS meaning that it will be completely secure.
+
+The Linux router will use the locally provided DNS servers obtained from DHCP - you don't have any choice about this since you need to access the captive portal which is usually accessible only if using the local DNS. You should not be using the Linux router for anything besides Tor anyway.
+
+What about the system resolver of the Mac host? The best option is to install `dnscrypt-proxy` on the Linux router. Configure it to connect over Tor:
+
+```ini
+listen_addresses = ['192.168.108.128:53']
+# check the dnscrypt-proxy doc for servers
+# I won't provide mine (and no, it is not Google)
+server_names = ['your_favorite_provider']
+ipv4_servers = true
+ipv6_servers = false
+dnscrypt_servers = true
+require_dnssec = false
+force_tcp = true
+proxy = 'socks5://127.0.0.1:9050'
+```
+
+If using `systemd` disable the `systemd-resolved` routing:
+
+```bash
+systemctl stop dnscrypt-proxy.socket
+systemctl disable dnscrypt-proxy.socket
+systemctl disable dnscrypt-proxy-resolvconf.service
+```
+
+Now `systemd` does know about this resolver. Local Linux queries get routed through `systemd-resolved` and go through the DHCP-provided DNS. Remote queries from the Mac host go through `dnscrypt-proxy` and Tor.
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP
 
