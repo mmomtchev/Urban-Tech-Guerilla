@@ -287,9 +287,11 @@ Now `systemd` does know about this resolver. Local Linux queries get routed thro
 
 With this setup Tunnelblick will warn you that your DNS does not pass through the VPN tunnel - this is normal, as your DNS uses the Tor network directly.
 
-## Playing mobile games on your phone while preserving the secrecy of the AP
+## Playing mobile games on your phone while preserving the secrecy of the AP (our simply updating your apps)
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
+
+Remember to never connect an Android phone with its location services enabled to your computer - because of something called A-GPS (Assisted GPS) - your phone will try to bootstrap the GPS algorithm by transmitting the surrounding Wi-Fi networks and Bluetooth devices to Google. Google officially does not keep track of this information - but in reality this is not true.
 
 ## Uninstalling
 
