@@ -14,6 +14,10 @@ Its main advantage is that you do not need to pay attention - the setup makes it
 
 Another great thing about this setup is that you are not limited to the Tor-friendly websites. Most of you, who have never used Tor for your daily browsing, do not know that many official websites block Tor users - or impose additional security restrictions. This setup does not have this problem.
 
+## Legality
+
+While using this method to connect to the Internet, I went through dozens of *"Terms of Use"* on many public Wi-Fi APs. I never found one which prohibits using the AP without having bought something from the commercial outlet operating it. And while almost every single one contained a section prohibiting hacking activities and unauthorized access to computer networks, there wasn't a single one prohibiting anonymous use of Internet and concealing one's identity. This method of accessing the Internet is perfectly legal.
+
 ## Prerequisites
 
 - a macOS computer
@@ -286,6 +290,32 @@ systemctl disable dnscrypt-proxy-resolvconf.service
 Now `systemd` does know about this resolver. Local Linux queries get routed through `systemd-resolved` and go through the DHCP-provided DNS. Remote queries from the Mac host go through `dnscrypt-proxy` and Tor.
 
 With this setup Tunnelblick will warn you that your DNS does not pass through the VPN tunnel - this is normal, as your DNS uses the Tor network directly.
+
+## Wi-Fi APs that block Tor
+
+I have found only a handful of public Wi-Fi APs that block Tor - but these often tend to be some of the best ones in terms of wireless coverage and bandwidth.
+
+You should know that Tor is difficult to block. On the very basic level, some firewalls will block the ports usually associated with the Tor service - especially 9001. Even the default Tor configuration has no problems circumventing these.
+
+Some firewalls have a slightly better filtering system - for example FortiGate by Fortinet. These will analyze and recognize the Tor protocol and will also block all the publicly known entry IP addresses.
+
+FortiGate can be circumvented by using the `obfs4` transport which is designed to mimic HTTPS traffic. It is included in many Linux distribs:
+
+`apt install obfs4proxy`
+
+Then add to your `torrc`:
+
+```ini
+UseBridges 1
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+
+Bridge obfs4 x.x.x.x:443 5ada428da254a6dbbbd35b9abed0329ef3cc26e3dbd52ade2bb13a907a217b34 cert=xxx iat-mode=0
+Bridge obfs4 y.y.y.y:443 d740970c83088b041fddc99f3bf92f7d599a414a4143103a8565515349e9da03 cert=yyy iat-mode=1
+```
+
+You can find bridges by using the Tor GUI application or by simply searching in a search engine. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
+
+Protocol analyzing is also constantly evolving. At the time of this writing, there is an ongoing successful R&D effort to detect `obfs4` and there is a new, even more difficult to detect, transport emerging called `webtunnel`.
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP (our simply updating your apps)
 
