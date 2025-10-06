@@ -315,7 +315,11 @@ Bridge obfs4 y.y.y.y:443 d740970c83088b041fddc99f3bf92f7d599a414a4143103a8565515
 
 You can find bridges by using the Tor GUI application or by simply searching in a search engine. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
 
-Protocol analyzing is also constantly evolving. At the time of this writing, there is an ongoing successful R&D effort to detect `obfs4` and there is a new, even more difficult to detect, transport emerging called `webtunnel`.
+Protocol detection of `obfs4` is difficult and of all service providers that I have encountered, only Starlink filters it. It needs about 5 or 6 packets before detecting it and blocking the connection. You can't beat this by simply using another bridge.
+
+At the time of this writing, there is a new, even more difficult to detect, transport emerging called `webtunnel`.
+
+The easiest way to know if Tor is blocked and to identify the firewall blocking it is to visit `http://torproject.org/` (type manually `http://`, the default one is now `https://`) - you will see the firewall message telling you that this site is blocked under their policy.
 
 ## Playing mobile games on your phone while preserving the secrecy of the AP (our simply updating your apps)
 
