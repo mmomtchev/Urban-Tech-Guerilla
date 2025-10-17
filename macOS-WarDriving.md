@@ -41,7 +41,7 @@ Connecting to any open Wi-Fi AP, that advertises itself as such, is also certain
 
 Connecting to a hidden Wi-Fi AP that is not encrypted is probably not legal - although this should be decided by a court. Connecting to this Wi-Fi requires snooping another client that establishes a connection. This can be compared to entering through a door protected by a digit code by snooping someone else entering this code. It also constitutes an illegal access of a computer network by circumventing a technical protection.
 
-Snooping the traffic of an open unencrypted Wi-Fi network is certainly not ethical, but the legality is questionable.
+Snooping the traffic of an open unencrypted Wi-Fi network is certainly not ethical, but the legality is questionable. As far as I know, this has never been challenged in court, but if one day it is, there should probably be different rules for broadcast traffic and for station-to-station traffic.
 
 Snooping the traffic of an encrypted network is certainly very illegal and should be considered eavesdropping by circumventing a technical protection.
 
