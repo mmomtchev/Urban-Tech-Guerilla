@@ -313,7 +313,7 @@ Bridge obfs4 x.x.x.x:443 5ada428da254a6dbbbd35b9abed0329ef3cc26e3dbd52ade2bb13a9
 Bridge obfs4 y.y.y.y:443 d740970c83088b041fddc99f3bf92f7d599a414a4143103a8565515349e9da03 cert=yyy iat-mode=1
 ```
 
-You can find bridges by using the Tor GUI application or by simply searching in a search engine. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
+You can find bridges by using the Tor GUI application or by simply searching in a search engine. There is also a bot on Telegram, `@GetBridgesBot`, that can provide you an up to date one. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
 
 Protocol detection of `obfs4` is difficult and of all service providers that I have encountered, only Starlink filters it. It needs about 5 or 6 packets before detecting it and blocking the connection. You can't beat this by simply using another bridge.
 
