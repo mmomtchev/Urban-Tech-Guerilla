@@ -28,3 +28,9 @@ My hardware setup consists of:
 * The latest `aircrack-ng` distribution from their Github repository with a patch of mine used to make it compatible with the GPS from the Android phone - https://github.com/aircrack-ng/aircrack-ng/pull/2682. Don't use the latest release, it has a horrible bug handling GPS data.
 * An open-source Android application called [`gpsdRelay`](https://github.com/project-kaat/gpsdRelay) available on the F-Droid store.
 * My own custom software that processes both the *WiGLE* CSV data and the `aircrack-ng` CSV data and builds good looking maps using publicly available mapping services. I will certainly upload it to Github when I no longer need to use wardriving but at the moment I prefer not to do so, since it can potentially be used to identify my requests to the map server. This part is luxury anyway - you can still get all the information without it.
+
+# Legality of wardriving
+
+Wardriving, when used to find official public Wi-Fi APs, is certainly absolutely legal - it is no different than simply enabling Wi-Fi on your mobile phone to connect to nearby networks.
+
+Mapping Wi-Fi APs that are not open to use by the general public is certainly more debatable - on both legal and ethical grounds. Google is doing this in many countries and there have been some objections to this practice, but at the moment the legal precedence stays and the practice is not considered banned and as far as I know, it has never been challenged in court. Google is using this data for bootstrapping their Assisted GPS method of obtaining a very fast first fix when launching Google Maps - a feature that I have covered extensively because of its privacy implications - including being used to track me personally.
