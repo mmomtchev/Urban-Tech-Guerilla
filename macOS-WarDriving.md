@@ -29,6 +29,52 @@ My hardware setup consists of:
 * An open-source Android application called [`gpsdRelay`](https://github.com/project-kaat/gpsdRelay) available on the F-Droid store.
 * My own custom software that processes both the *WiGLE* CSV data and the `aircrack-ng` CSV data and builds good looking maps using publicly available mapping services. I will certainly upload it to Github when I no longer need to use wardriving but at the moment I prefer not to do so, since it can potentially be used to identify my requests to the map server. This part is luxury anyway - you can still get all the information without it.
 
+# Setup
+
+When I am wardriving, I use the built-in Wi-Fi of the Macbook Air as an AP in *Connection Sharing* mode - if you followed the Untraceable Internet tutorial this will work through the GUI. macOS includes a somewhat hidden implementation of OpenBSD's `pf` that you can tune through `/etc/pf.conf`. Just be mindful that at each update of macOS, this file will be overwritten. Allow the traffic between the Wi-Fi AP and the VMWare Fusion box:
+
+```ini
+# Apple stuff
+nat-anchor "com.apple/*"
+
+# add this line to access the internet from the mobile phone
+nat on utun4 from 192.168.0.0/16 to ! 192.168.0.0/16 -> (utun4)
+
+# Apple stuff
+rdr-anchor "com.apple/*"
+dummynet-anchor "com.apple/*"
+anchor "com.apple/*"
+load anchor "com.apple" from "/etc/pf.anchors/com.apple"
+
+# add this line to allow communication between gpsRelayd and gpsd
+pass from 192.168.0.0/16 to 192.168.0.0/16
+```
+
+Also enable network forwarding if it is not already the case:
+
+```shell
+sysctl net.inet.ip.forwarding=1
+```
+
+Install `gpsd` on the Linux box. On `systemd` systems it will be started automatically by `systemd` when traffic is detected on its port. Configure it to listen to network traffic by editing `/etc/default/gpsd`:
+
+```ini
+# The IP address of the Linux box on the VMWare interface
+# (refer to the untraceable Internet setup for this one)
+DEVICES="udp://192.168.108.128:2947"
+GPSD_OPTIONS=""
+```
+
+Now connect the Android phone to the Macbook by WiFi and launch `gpsRelayd`. Add a single target device with the IP of the Linux box: `192.168.108.128:2947` in UDP mode and enable *NMEA generation*. From this moment on, launching `gpsmon` on the Linux box should show your realtime location coming from the Android GPS. This setup will save you one precious USB-C port on the Macbook - because the first one is used for powering it through the 12V circuit of the vehicle, while the other one is used by the external WiFi adapter.
+
+You are now ready to launch `airodump`:
+
+```shell
+./aircrack-ng/airodump-ng --encrypt opn -a -g --berlin 30 -w ${OUTPUT_FILE} ${WLAN}
+```
+
+Adjust carefully the `berlin` option - the time in seconds that the WiFi beacons remain on the screen. It should be long enough to allow you to remain concentrated on driving, looking at the computer screen when stopped at red lights. It should be short enough to be able to quickly take the decision to park on a given spot while knowing that the current WiFi is still in range.
+
 # Legality of wardriving
 
 Wardriving, when used to find official public Wi-Fi APs, is certainly absolutely legal - it is no different than simply enabling Wi-Fi on your mobile phone to connect to nearby networks.
