@@ -34,3 +34,15 @@ My hardware setup consists of:
 Wardriving, when used to find official public Wi-Fi APs, is certainly absolutely legal - it is no different than simply enabling Wi-Fi on your mobile phone to connect to nearby networks.
 
 Mapping Wi-Fi APs that are not open to use by the general public is certainly more debatable - on both legal and ethical grounds. Google is doing this in many countries and there have been some objections to this practice, but at the moment the legal precedence stays and the practice is not considered banned and as far as I know, it has never been challenged in court. Google is using this data for bootstrapping their Assisted GPS method of obtaining a very fast first fix when launching Google Maps - a feature that I have covered extensively because of its privacy implications - including being used to track me personally.
+
+Cracking the encryption of secured Wi-Fi APs is certainly universally illegal. It constitutes an illegal access of a computer network by circumventing a technical protection.
+
+Connecting to any open Wi-Fi AP, that advertises itself as such, is also certainly legal in most jurisdictions. An open Wi-Fi AP broadcasts a signal that marks it as accepting any connection. It can be compared to a revolving door with an *OPEN* sign on it.
+
+Connecting to a hidden Wi-Fi AP that is not encrypted is probably not legal - although this should be decided by a court. Connecting to this Wi-Fi requires snooping another client that establishes a connection. This can be compared to entering through a door protected by a digit code by snooping someone else entering this code. It also constitutes an illegal access of a computer network by circumventing a technical protection.
+
+Snooping the traffic of an open unencrypted Wi-Fi network is certainly not ethical, but the legality is questionable.
+
+Snooping the traffic of an encrypted network is certainly very illegal and should be considered eavesdropping by circumventing a technical protection.
+
+Usually highly sensible installations will carry a sign somewhere - for example to be displayed on the user screen by a captive portal - that will say something along the lines of *Access to this network is prohibited unless explicitly authorized*. Connecting to this Wi-Fi, even if it is open and unencrypted, is certainly illegal. It could be a simple illegal access of a computer network - if it is not encrypted - or an illegal access to a computer network by circumventing a technical protection - if it is encrypted. The difference between the two is very similar to the difference between trespassing and breaking-and-entering.
