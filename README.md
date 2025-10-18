@@ -106,6 +106,8 @@ If you want to carry a gun, you should not only be prepared to kill someone with
 
 Depending on your political goals, this might be a good choice. However those few situations which would actually require it are currently considered out for scope of this guide.
 
+Should you eventually decide to follow this route, be advised that no one is able to think clearly and exercise self-control during their first gunfight. This fact is very well known to the military where they have this expression about "seeing the elephant". It is considered that fresh recruits enjoy a 1:3 to 1:5 numerical-equivalence disadvantage against combat veterans. Then account for the fact that you will likely by outnumbered and outgunned.
+
 ## Addendum
 
 ### Practical Guides
