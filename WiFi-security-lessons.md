@@ -17,7 +17,7 @@ On the residential side, there are three big holes left to plug in:
 
  * Wi-Fi range extenders
   
-  4 out of 5 residential Wi-Fi range extenders are open and unencrypted. This is where the process of the box fails - the user finds that it is much easier to disable the box password then to configure the range extender. As the range extender has a very good amplified antenna, this signal becomes usable at a great distance.
+  4 out of 5 residential Wi-Fi range extenders are open and unencrypted. This is where the process of the box fails - the user simply turns it, configures his network and finds that it works immediately. 19 out of 20 range extenders Wi-Fi networks are called "(D-Link/Netgear/something else) Wi-Fi Range Extender". As the range extender has a very good amplified antenna, this signal becomes usable at a great distance.
 
 * Various home appliances that can be configured with a mobile phone
 
