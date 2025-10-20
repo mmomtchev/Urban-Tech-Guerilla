@@ -321,6 +321,8 @@ At the time of this writing, there is a new, even more difficult to detect, tran
 
 The easiest way to know if Tor is blocked and to identify the firewall blocking it is to visit `http://torproject.org/` (type manually `http://`, the default one is now `https://`) - you will see the firewall message telling you that this site is blocked under their policy.
 
+When it comes to the legality of circumventing the Tor filters, the situation is very simple: if the Terms of Service of the Wi-Fi AP include a provision that prohibits using Tor, then whether there is a filter or not, you will be violating the Terms of Use. If there is no such provision and the Wi-Fi provider silently blocks Tor, circumventing this filter does not constitute a violation of the Terms of Service.
+
 ## Playing mobile games on your phone while preserving the secrecy of the AP (our simply updating your apps)
 
 At this point it will be possible to use the internal macOS Wi-Fi adapter in connection sharing mode to connect your mobile phone - provided that you do not connect to the mobile network - careful because even without the SIM card your IMEI will be visible. Many Android phone can do this. First turn on *Airplane mode* - this will disable *Wi-Fi* if it is enabled. Then turn *Wi-Fi* back on.
