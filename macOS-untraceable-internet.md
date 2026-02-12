@@ -252,6 +252,17 @@ Also very often you will have to fix various broken and misconfigured captive po
 
 However bear in mind that connecting to an AP that is not working for most of its users has both advantages and drawbacks. You get excellent speeds but you definitely draw attention.
 
+### Leaking information through DHCP
+
+DHCP can leak information in its default configuration on some Linux distributions, as it will send the hostname along with the initial request. If the Wi-Fi AP is identified - which has happened in my case through tracing payments to EV charging stations - it will be possible to identify the connections, especially when they go through a third-party Wi-Fi operator. The DHCP protocol does not require that client sends a name, edit `/etc/dhcp/dhclient.conf` on the Linux guest and remove the following lines:
+
+```text
+send host-name = gethostname();
+send dhcp-client-identifier be:ef:f0:0d:de:ad:c0:de;
+```
+
+Alternatively, you can send a hostname such as *Didier's Samsung Galaxy*.
+
 ## Wireless connectivity
 
 You should know that wireless connectivity is a complex subject. Different radio waves propagate in a different way and range depends on a very large number of factors including the solar activity of the day - and this is definitely not a joke. In particular concrete walls, interference or running heavy machinery can have a huge impact. If your connectivity is bad, try moving around. Having external antennas attached with a cable to your computer helps a lot. For example, one day I got a very strong 5 GHz signal with a Wi-Fi name that clearly indicated a restaurant. I drove around and I could not see it despite the signal being very good. Some moments later I realized that it was coming for a street parallel to the one on which I was driving. Very happy to have found such a great signal I immediately went to its the empty parking behind it since it was closed. I could not get any signal there - the AP was installed facing the customer area and I was behind all the kitchen equipment and a power substation.
@@ -313,7 +324,7 @@ Bridge obfs4 x.x.x.x:443 5ada428da254a6dbbbd35b9abed0329ef3cc26e3dbd52ade2bb13a9
 Bridge obfs4 y.y.y.y:443 d740970c83088b041fddc99f3bf92f7d599a414a4143103a8565515349e9da03 cert=yyy iat-mode=1
 ```
 
-You can find bridges by using the Tor GUI application or by simply searching in a search engine. There is also a bot on Telegram, `@GetBridgesBot`, that can provide you an up to date one. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
+You can find bridges by using the Tor GUI application or by simply searching in a search engine. There is also a bot on Telegram, `@GetBridgesBot`, that can provide you an up-to-date one. It is a constant game of cat and mouse, with new bridges being added and old ones being blocked.
 
 Protocol detection of `obfs4` is difficult and of all service providers that I have encountered, only Starlink filters it. It needs about 5 or 6 packets before detecting it and blocking the connection. You can't beat this by simply using another bridge.
 

@@ -50,6 +50,8 @@ load anchor "com.apple" from "/etc/pf.anchors/com.apple"
 pass from 192.168.0.0/16 to 192.168.0.0/16
 ```
 
+Make a backup copy of this file, since Apple will overwrite it at each update of macOS. You will also need to reload it using `sudo pfctl -f /etc/pf.conf` after each reboot, you can setup a `launchd` job to do it for you.
+
 Also enable network forwarding if it is not already the case:
 
 ```shell
