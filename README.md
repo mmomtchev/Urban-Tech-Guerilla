@@ -1,3 +1,5 @@
+*Alas, as currently there is lots of heat on me, I have to temporarily stop giving clues on how to locate me. I have tons of new tips for all future activists in extreme situations and I will certainly tell it all once the current situation is resolved. I certainly plan to make a huge DEFCON talk about my clandestine years, titled something along the lines of "Survival on the Urban Tech Battlefield: xxx months on the run from criminal police and Big Tech", but at the moment I have to keep all my new ideas to myself*.
+
 # Urban Tech Guerilla
 
 ## Dedication
