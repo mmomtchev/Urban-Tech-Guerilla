@@ -1,3 +1,6 @@
+![Le tout premier mème Internet datant de 1993](https://raw.githubusercontent.com/mmomtchev/Urban-Tech-Guerilla/refs/heads/main/04f7be8cab7c1f9b9f96a568038442c7-896x504.webp)
+*Le tout premier mème Internet datant de 1993*
+
 Internet est un outil de communication formidable, l'apparition duquel sera, sans aucun doute, considérée par les futures générations comme une invention aussi importante que la presse de Gutenberg.
 
 Tout comme l'imprimerie, il permet de modifier l'équilibre des forces sociales. Il donne la possibilité à n'importe quelle personne de communiquer facilement un message à une audience qui est pratiquement illimitée.
