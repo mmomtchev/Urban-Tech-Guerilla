@@ -96,3 +96,11 @@ Malheureusement cette méthode nécessite des connaissances techniques et, à l'
 C'est certainement quelque chose que j'envisage de faire dans un futur proche.
 
 Mes recherches préliminaires m'indiquent qu'actuellement cette méthode n'est sanctionnée par aucune législation en France et son utilisation reste complètement légale.
+
+### Le cas de Ross Ulbricht aka *Dread Pirate Roberts*
+
+Début des années 2010 il est apparu le premier site du type Amazon Marketplace dédié aux services illégaux. Géré par une personne dont le pseudo était Dread Pirate Roberts, le site a connu un succès spectaculaire. Ross Ulbricht se revendiquait anarchiste, mais selon les autorités, il était tout simplement un grand caïd de la drogue. On va pas le juger ici, ce n'est pas le sujet principal, mais ce qui est important dans son affaire c'est qu'il a pu conserver son anonymat pendant plusieurs années tout en acceptant des paiements en cryptodevises - et ceci malgré le fait que le FBI et les services de renseignement américains étaient sous pression considérable de la part du Congrès pour le retrouver.
+
+Cette affaire a été le premier grand essai du réseau Onion / Tor - essai qui a démontré qu'il était réellement infaillible entre les mains d'un informaticien compétent.
+
+Ross Ulbricht a été arrété par la police américaine en 2013 après une enquête policièere plutôt classique - un agent sous coverture a pu gagner sa confiance et s'est vu embaucher pour gérer une partie des serveurs qui hébergeaient le site. Sur un de ces serveurs il a remarqué que DPR utilisait en interne un autre pseudo relativement atypique en tant que nom d'utilisateur. Ce pseudo a pu être lié à un compte ayant le même pseudo sur des forums en ligne qu'il utilisait 10 ans plutôt.
