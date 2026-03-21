@@ -66,6 +66,10 @@ Il s'agit souvent de très bonnes installations avec plusieurs antennes qu'on pe
 
 Il faut savoir qu'en France le fait de proposer un accès WiFi au grand public est réglementé par plusieurs lois - vous pouvez trouver [un très bon recapitulatif sur le site de la CNIL](https://www.cnil.fr/fr/fournir-un-acces-internet-public-quelles-obligations). Le fournisseur d'accès est obligé de conserver les données techniques relatives aux connexions des utilisateurs pendant une durée de 5 ans. Sachez également que lors de votre connexion initiale à la borne WiFi, votre ordinateur ou téléphone portable transmet une information qui s'appelle l'adresse MAC de la carte WiFi qui est en quelque sorte son numéro de série. Il permet, entre autre, d'identifier le fabricant, le modèle et une date approximative de sa fabrication. Cette adresse, beaucoup moins connue que l'adresse IP, est très souvent utilisé pour identifier un ordinateur ou téléphone portable. Cependant il s'agit d'une mauvaise pratique d'un point de vue de sécurité informatique puisqu'il existe des logiciels qui permettent de fournir une adresse différente de celle codée en dur dans la carte WiFi. L'adresse codée en dur ne peut pas être changée et une fois transmise sera toujours liée à une carte WiFi précise.
 
+Pour faire la comparaison avec une voiture, votre adresse IP est en quelque sorte votre plaque d'immatriculation - et elle peut changer - tandis que votre adresse MAC est votre numéro de chassis - celle-là ne change jamais.
+
+Si vous utilisez une clé USB WiFi externe, l'adresse MAC transmise sera celle de la clé USB et non pas celle de l'ordinateur.
+
 ## Le VPN
 
 Le VPN est une fausse solution d'anonymat. Il ne fait que déplacer le problème. Certes, l'opérateur du site distant ne verra pas votre adresse IP, il verra celle de l'opérateur VPN. Mais l'opérateur VPN, lui, il verra votre vraie adresse IP. Cette méthode ne fait que rajouter une étape supplémentaire à tout le monde qui essaye de vous retrouver.
