@@ -68,6 +68,8 @@ Il faut savoir qu'en France le fait de proposer un accès WiFi au grand public e
 
 Pour faire la comparaison avec une voiture, votre adresse IP est en quelque sorte votre plaque d'immatriculation - et elle peut changer - tandis que votre adresse MAC est votre numéro de chassis - celle-là ne change jamais. A différence de l'adresse IP qui est connue à tous les sites distants qu'on visite, l'adresse MAC n'est connue que par la borne WiFi et son opérateur.
 
+De plus, si vous avez personalisé le nom de votre ordinateur ou votre téléphone portable - le nom qui apparaît dans le voisinage réseau - ce nom est aussi transmis à la borne WiFi et sera conservé pendant 5 ans.
+
 Si vous utilisez une clé USB WiFi externe, l'adresse MAC transmise sera celle de la clé USB et non pas celle de l'ordinateur. Dans le cas d'un téléphone portable, l'adresse MAC qui est vue par la borne WiFi est différente du numéro IMEI connu par l'opérateur mobile mais il est possible pour le fabricant du téléphone portable d'établir le lien entre les deux.
 
 ## Le VPN
