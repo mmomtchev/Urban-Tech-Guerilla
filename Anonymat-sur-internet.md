@@ -121,3 +121,17 @@ Début des années 2010 il est apparu le premier site du type Amazon Marketplace
 Cette affaire a été le premier grand essai du réseau Onion / Tor - essai qui a démontré qu'il était réellement infaillible entre les mains d'un informaticien compétent.
 
 Ross Ulbricht a été arrété par la police américaine en 2013 après une enquête policièere plutôt classique - un agent sous coverture a pu gagner sa confiance et s'est vu embaucher pour gérer une partie des serveurs qui hébergeaient le site. Sur un de ces serveurs il a remarqué que DPR utilisait en interne un autre pseudo relativement atypique en tant que nom d'utilisateur. Ce pseudo a pu être lié à un compte ayant le même pseudo sur des forums en ligne qu'il utilisait 10 ans plutôt.
+
+# Conclusion
+
+Pour une personne dont la sécurité informatique n'est pas le métier, l'anonymat sur Internet peut quand même être comparé à une promenade dans un champs de mines.
+
+Cependant, si:
+* on utilse un ordinateur ou téléphone portable acheté de façon anonyme
+* on l'utilise uniquement sur des réseaux WiFi publics
+* on ne porte pas de téléphone portable perso
+* on n'accède jamais au contenu qu'on veut cacher depuis un autre périphérique
+* on n'accède jamais à rien d'autre que le contenu qu'on va cacher depuis le périphérique secret
+* on change d'endroit à chaque utilisation et on ne traine pas là bas pendant des heures
+
+Dans ce cas, tant qu'on ne fait rien qui risque d'être à la une dans la presse, on peut être raisonnablement sûr que l'anonymat va tenir.
